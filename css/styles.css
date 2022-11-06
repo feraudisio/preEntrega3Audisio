@@ -1,0 +1,157 @@
+body {
+  background-image: linear-gradient(#eed09d 55%, red);
+  margin: 0px;
+  margin-bottom: 300px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #612f00;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+.headerIndice {
+  font-size: 30px;
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 20px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.caja-indice {
+  border: 5px solid rgb(0, 0, 0);
+  background-color: hsl(24deg, 94%, 67%);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 80px;
+  margin: 20px;
+  text-align: center;
+}
+
+.box {
+  border-color: white;
+  border: 20px;
+  padding: 30px;
+  color: red;
+  background-color: black;
+}
+
+.lista {
+  text-align: center;
+}
+
+.carousel-item > iframe {
+  height: 300px;
+  width: 700px;
+}
+
+#ParrafoSkate {
+  font-size: xx-large;
+  font-style: oblique;
+  text-align: center;
+}
+
+.shake {
+  font-size: 12rem;
+  margin: auto;
+}
+
+.shake:hover {
+  -webkit-animation: mover 1s;
+  animation: mover 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(-3px, 0px) rotate(0deg);
+  }
+  60% {
+    transform: translate(3px, 2px) rotate(1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(-3px, 0px) rotate(0deg);
+  }
+  60% {
+    transform: translate(3px, 2px) rotate(1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+}
+.cajas {
+  text-align: center;
+  border: 1px rgb(3, 2, 2);
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 50px;
+  align-items: flex-end;
+}
+
+.flex-caja {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  background: rgb(11, 90, 114);
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  border: 2px solid black;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.grid-container div {
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 25px;
+} /*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
